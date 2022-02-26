@@ -36,7 +36,20 @@ This paper proposes the implementation of a 1 bit low power 8T SRAM cell. One of
 ## Circuit Details
 
 
-![Schematics](https://user-images.githubusercontent.com/100414911/155836975-b8a721d7-f47a-4604-86a9-0317f18e29ac.jpg)
+
+![Schematics](https://user-images.githubusercontent.com/100414911/155837802-caf58183-4f64-45d7-94bb-ebb59d049913.GIF)
+
+
+![Schematics symbol](https://user-images.githubusercontent.com/100414911/155837836-88685e9e-78d4-456a-904e-6d60e34e1723.GIF)
+
+
+![WLR BL Q RBL Testbench](https://user-images.githubusercontent.com/100414911/155837740-15a0e1ce-9e66-443b-a2cc-043f549ff3e5.GIF)
+
+
+![WLR BL Q RBL](https://user-images.githubusercontent.com/100414911/155837696-99b481a4-897b-4252-bb77-179e035824c7.gif)
+
+
+![WLR BLB QB RBL](https://user-images.githubusercontent.com/100414911/155838021-0195590d-4a9a-49c1-b128-0e75a65fd172.png)
 
 
 
