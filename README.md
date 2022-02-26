@@ -36,9 +36,16 @@ This paper proposes the implementation of a 1 bit low power 8T SRAM cell. One of
 
 ## Synopsys Custom Compiler Tool
 
+##### Custome Compiler:
 Custom Compiler™ is a fresh, modern solution for full-custom analog, custom digital, and mixed-signal integrated circuit (IC) design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. Designed to handle the most challenging requirements of FinFET process technologies, it delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 
 ![Customer Compiler](https://user-images.githubusercontent.com/100414911/155836981-66449787-d7a3-4794-84f2-b5f18002354b.gif)
+
+##### • Synopsys Primewave:
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+##### • Synopsys 28nm PDK:
+The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 
 
