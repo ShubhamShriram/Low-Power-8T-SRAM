@@ -53,6 +53,81 @@ This paper proposes the implementation of a 1 bit low power 8T SRAM cell. One of
 
 
 
+## Netlist 
+
+
+*  Generated for: PrimeSim
+*  Design library name: cp_lib1
+*  Design cell name: SRAM_TB
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Fri Feb 25 07:10:36 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : SRAM
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sram bl blb q qb rbl rwl rwlb vcc vssa wlr vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm5 q rwl rbl vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm4 q wlr bl vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm2 blb wlr qb vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm1 qb q vssa vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm0 q qb vssa vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm8 q rwlb rbl vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm7 qb q vcc vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm6 q qb vcc vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+.ends sram
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : SRAM_TB
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+v33 wlr gnd! dc=0 pulse ( 1 0 0 0.1u 0.1u 10u 20u )
+v17 blb gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 5u 10u )
+v16 bl gnd! dc=0 pulse ( 01 0 0 0.1u 0.1u 5u 10u )
+v41 rwlb gnd! dc=1
+v42 rwl gnd! dc=1
+v11 net43 gnd! dc=1
+xi38 bl blb q qb rbl rwl rwlb net43 gnd! wlr gnd! vdd! sram
+
+
+
+
+
+
+
+
+.tran '1u' '50u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(bl) v(blb) v(q) v(qb) v(rbl) v(wlr)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+
 ## Acknowledgement
 
 
