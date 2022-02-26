@@ -9,15 +9,19 @@
 
 1. Abstract
 
-2. Synopsys Custom Compiler Tool Details
+2. Synopsys Custom Compiler Tool 
 
-3. Circuit Details
+3. Circuit Design
 
-4. Circuit Design
+4. Circuit Schematics and Symbol
 
-5. Waveforms
+5. Testbench setup
 
-6. Spice Netlist
+6. Waveforms
+
+7. Spice Netlist
+
+8. Author
 
 7. Acknowledgement
 
@@ -27,25 +31,27 @@
 ## Abstract
 
 This paper proposes the implementation of a 1 bit low power 8T SRAM cell. One of the major advantage of this design is, there is no requirement of a precharge circuit as required in the traditional 8T SRAM cell and a sense amplifier circuit as required in 6T SRAM cell because the stored value is directly passed through transmission gate. This SRAM cell is designed using the Synopsys Customer Compliler with 28nm CMOS Technology as a part of Cloud Based Analog IC Design Hackathon
-## Synopsys Custom Compiler
+## Synopsys Custom Compiler Tool
 
 ![Customer Compiler](https://user-images.githubusercontent.com/100414911/155836981-66449787-d7a3-4794-84f2-b5f18002354b.gif)
 
 
 
-## Circuit Details
+## Circuit Design
+
+![Reference SRAM 8T Cell](https://user-images.githubusercontent.com/100414911/155839648-db92888c-6a97-45bd-aa28-784edc5f4bc2.gif)
 
 
-
+## Circuit Schematics and Symbol
 ![Schematics](https://user-images.githubusercontent.com/100414911/155837802-caf58183-4f64-45d7-94bb-ebb59d049913.GIF)
 
 
 ![Schematics symbol](https://user-images.githubusercontent.com/100414911/155837836-88685e9e-78d4-456a-904e-6d60e34e1723.GIF)
 
-
+## Testbench Setup
 ![WLR BL Q RBL Testbench](https://user-images.githubusercontent.com/100414911/155837740-15a0e1ce-9e66-443b-a2cc-043f549ff3e5.GIF)
 
-
+## Waveforms
 ![WLR BL Q RBL](https://user-images.githubusercontent.com/100414911/155837696-99b481a4-897b-4252-bb77-179e035824c7.gif)
 
 
