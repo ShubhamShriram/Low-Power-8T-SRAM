@@ -9,7 +9,7 @@
 
 #### Abstract
 
-#### [Synopsys Custom Compiler Tool](#synopsys-custom-compiler-tool)
+#### Synopsys Custom Compiler Tool
 
 #### Circuit Design
 
@@ -23,7 +23,7 @@
 
 #### Author
 
-#### [Acknowledgement](#acknowledgement)
+#### Acknowledgement
 
 #### References
 
