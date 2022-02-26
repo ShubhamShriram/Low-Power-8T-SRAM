@@ -128,16 +128,12 @@ consecutive ‘0’s and consecutive ‘1’s are read out.
 
 ## Waveforms 
 
-
 ###### Transient analysis of the SRAM cell.
-
-When t we can observe the basic working of the SRAM cell with respect to time. The output value Q changes only when the Write line WLR is active and rest of the time cell it is at static or hold state. Also the exact data which is at Q is transmitted to RBL.
-
+When WLR line is active, the BL and BLB inputs are passed to the CMOS inverter cell and hence we can observe the basic working of the SRAM cell with respect to time. The output value Q changes according to the input BL only when the Write line WLR is active and rest of the time cell it is at static or hold state. Also the exact data which is at Q is transmitted to RBL.
 ![FInal WLR BL Q RBL](https://user-images.githubusercontent.com/100414911/155843114-800285b4-8dd5-4d8f-b2d5-651145d70729.gif)
-
+Similarly, the output value QB changes according to the input BLB when the Write line WLR is active and rest of the time cell it is at static or hold state. Also the inverted data of QB appears at RBL.
 
 ![Final WLR BLB QB RBL ](https://user-images.githubusercontent.com/100414911/155843306-ff23469d-c903-47e5-83ec-8f2693b017de.gif)
-
 
 
 ## Spice Netlist 
