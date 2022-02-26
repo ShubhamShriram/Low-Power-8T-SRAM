@@ -55,8 +55,14 @@ This paper proposes the implementation of a 1 bit low power 8T SRAM cell. One of
 
 ## Spice Netlist 
 
-[Netlist.txt](https://github.com/ShubhamShriram/SRAM_8T/files/8146363/Netlist.txt)
+Please refer to the netlist here. [Netlist.txt](https://github.com/ShubhamShriram/SRAM_8T/files/8146363/Netlist.txt)
 
+
+![Netlist 1](https://user-images.githubusercontent.com/100414911/155839261-98a37259-d984-4217-8129-d33e63187512.GIF)
+
+![Netlist 2](https://user-images.githubusercontent.com/100414911/155839264-16556b50-7eec-4b55-be05-9cffe215a66e.GIF)
+
+![Netlist 3](https://user-images.githubusercontent.com/100414911/155839267-a134fa9a-2f50-445a-adf9-59c97366b50a.GIF)
 
 
 ## Acknowledgement
