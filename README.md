@@ -7,25 +7,25 @@
 
 ## Appendix
 
-1. Abstract
+#### Abstract
 
-2. Synopsys Custom Compiler Tool 
+#### [Synopsys Custom Compiler Tool](#synopsys-custom-compiler-tool)
 
-3. Circuit Design
+#### Circuit Design
 
-4. Circuit Schematics and Symbol
+#### Circuit Schematics and Symbol
 
-5. Testbench setup
+#### Testbench setup
 
-6. Waveforms
+#### Waveforms
 
-7. Spice Netlist
+#### Spice Netlist
 
-8. Author
+#### Author
 
-7. Acknowledgement
+#### [Acknowledgement](#acknowledgement)
 
-8. References
+#### References
 
 
 ## Abstract
