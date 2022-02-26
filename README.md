@@ -64,6 +64,9 @@ Please refer to the netlist here. [Netlist.txt](https://github.com/ShubhamShrira
 
 ![Netlist 3](https://user-images.githubusercontent.com/100414911/155839267-a134fa9a-2f50-445a-adf9-59c97366b50a.GIF)
 
+## Author 
+
+- Shubham Venkatesh Shriram, BE(ECE), Working at Applied Materials
 
 ## Acknowledgement
 
